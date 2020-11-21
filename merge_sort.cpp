@@ -13,8 +13,7 @@ void merge(vector<int>&x,int l,int m,int r){
         y.push_back(x[i]);
         i++;
         }
-    while(j<=r)
-    {
+    while(j<=r){
         y.push_back(x[j]);
         j++;
         }
